@@ -1,0 +1,98 @@
+header{
+	border:2px solid black;
+	padding:10px;
+	font-style: italic;
+	font-weight: bold;
+	background-image:linear-gradient(firebrick,#9c4e38);
+	
+
+}
+
+
+
+body{
+	background-color:;
+	font-family:arial,sans-seriff;
+	font-size: 1em;
+	line-height: 2;
+	box-sizing: border-box;
+	
+
+}
+
+#back{
+	list-style-type: none;
+}
+	
+.nav{
+	display:inline;
+	margin:5px;
+	float: right;
+	
+	}
+ul{
+	color: red;
+}
+
+h1{
+	text-transform: uppercase;
+	text-align: center;
+	color:black;
+	font-family:georgia;
+	text-shadow: 8px 5px 10px red;
+	letter-spacing:4px;
+}
+h2{
+	text-transform:uppercase;
+	font-family:georgia;
+}
+h3{
+	text-transform: uppercase;
+	font-family:georgia;
+	font-weight: bold;
+}
+#main-content{
+	padding: 10px;
+}
+
+#biography{
+	font-style: italic;
+}
+.image{
+	width:30%;
+	margin:20px;
+}
+
+
+a:link{
+	
+	text-decoration: none;
+}
+a:active{
+	color:yellow;
+}
+a:hover{
+	color:green;
+}
+a:visited{
+	color:black;
+}
+div{
+	width: 50%;
+	margin:auto;
+	border: 3px solid black;
+	border-radius:10px;
+	font-family: "Oxygen";
+	background-color: #38499c;
+	padding: 20px;
+	box-shadow:5px 10px 12px black;
+
+}
+@media (max-width:1024){
+	img{
+		width:50%;
+	}
+h1{
+	margin:auto;
+}
+}
